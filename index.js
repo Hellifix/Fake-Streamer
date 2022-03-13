@@ -10,16 +10,16 @@ keepAlive()
 client.login(TOKEN)
  
 client.on("ready", () => {
-    rpcGenerator.getRpcImage("CLIENT_ID", "IMAGE_NAME")
+    rpcGenerator.getRpcImage("951901657099305001", "jele")
     .then(image => {
         let presence = new rpcGenerator.Rpc()
-        .setName("twitch")
-        .setUrl("https://twitch.tv/SealedSaucer")
+        .setName("ПОРНХАБЕ, Я ТАМ МОДЕРАТОР <3")
+        .setUrl("https://vk.com/henless")
         .setType("STREAMING")
-        .setApplicationId("CLIENT_ID")
+        .setApplicationId("951901657099305001")
         .setAssetsLargeImage(image.id)
-        .setAssetsLargeText("youtube.com/SealedSaucer")
-        .setDetails("Subscribe!")
+        .setAssetsLargeText("https://vk.com/henless")
+        .setDetails("мой VK")
  
         client.user.setPresence(presence.toDiscord())
     }).catch(console.error)

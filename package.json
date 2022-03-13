@@ -1,0 +1,27 @@
+{
+  "name": "Fake-Streamer-5",
+  "version": "1.0.0",
+  "description": "A Code that allows you to get the \"Streaming\" Discord Status WITHOUT Streaming!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellifix/Fake-Streamer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hellifix/Fake-Streamer/issues"
+  },
+  "homepage": "https://github.com/Hellifix/Fake-Streamer#readme",
+  "dependencies": {
+    "discord.js-selfbot-v11": "^11.5.1",
+    "discordrpcgenerator": "^1.2.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
